@@ -16,6 +16,12 @@ class Youtube:
         mp3_path = os.path.join(output_path, f"{video_title}.mp3")
 
         os.rename(mp4_path, mp3_path)
+        
+        print(yt.title)
+        print(yt.author)
+        print(yt.length)
+        print(yt.thumbnail_url)
+        print(yt.publish_date)
 
     
     def get_audio_info(self):

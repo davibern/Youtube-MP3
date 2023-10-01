@@ -10,5 +10,4 @@ if __name__ == "__main__":
 
     youtube = Youtube(api_key)
     youtube.download_video_audio_as_mp3(video_url, output_path)
-    print(youtube.get_audio_info())
     print("Audio del video descargado como MP3 con éxito!")
